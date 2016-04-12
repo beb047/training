@@ -2,3 +2,7 @@
 url = "https://srv630.mcil.comm.mot.com/artifactory/api/lfs/test_lfs_local"
 
 
+[remote "origin"]
+url = <URL>
+fetch = +refs/heads/*:refs/remotes/origin/*
+lfsurl = "https://srv630.mcil.comm.mot.com/artifactory/api/lfs/test_lfs_local"
